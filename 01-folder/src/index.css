@@ -1,8 +1,7 @@
 @import "tailwindcss";
 
 *{
-  margin: 0;
-  padding: 0;
+  
   box-sizing: border-box;
 }
 body {
@@ -10,8 +9,13 @@ body {
   background-color: #e1e1e1;
   color: #e6e6e6;
   height: 100%;
-  overflow-x: hidden;
+  
   max-width: 100%;
   scrollbar-width: none;
 }
-
+#root{
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  
+}
